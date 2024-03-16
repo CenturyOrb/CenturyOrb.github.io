@@ -24,7 +24,6 @@ nav {
     grid-template-columns: 90px 1fr 90px;
     grid-template-areas: "nl main nr";
     border-bottom: 1px solid var(--line-color);
-    z-index: 1;
 }
 
 .nav-list {
