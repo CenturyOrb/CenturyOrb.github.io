@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fauna+One&display=swap");
 
 :root {
-  --secondary-color: #ff8fa3;
-  --main-color: #ffb3c1;
-  --line-color: #ca8593;
+  /* pink purple red */
+  --secondary-color: #ff8fa3; /* ff8fa3 9D4EDD FF4D6D*/
+  --main-color: #ffb3c1; /* ffb3c1 C77DFF FFB3C1*/
+  --line-color: #ca8593; /* ca8593 5A189A A4133C*/
   --font-color: #2e2e2e;
 }
 
@@ -87,7 +88,7 @@ nav {
 /* Navigation End */
 
 /* Welcome Start */
-.empty-space {
+#empty-space {
   height: 10vh;
 }
 
@@ -169,7 +170,17 @@ nav {
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  outline: 4px solid var(--secondary-color);
+  outline: 7px solid var(--secondary-color);
+}
+
+.quote {
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  font-family: "Fauna One", serif;
+  color: whitesmoke;
+  font-weight: 700;
+  background-color: var(--secondary-color);
 }
 
 .information {
@@ -177,6 +188,15 @@ nav {
   width: 45vw;
   background-color: var(--main-color);
   outline: 4px solid var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.information div {
+  width: 100px;
+  height: 100px;
+  outline: 1px solid whitesmoke;
 }
 
 @keyframes fadeInBackground {
