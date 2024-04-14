@@ -7,6 +7,7 @@
   --main-color: #ffb3c1; /* ffb3c1 C77DFF FFB3C1*/
   --line-color: #ca8593; /* ca8593 5A189A A4133C*/
   --font-color: #2e2e2e;
+  --text-color: #023047;
 }
 
 /* Utility */
@@ -185,18 +186,46 @@ nav {
 
 .information {
   height: 50vh;
-  width: 45vw;
+  width: 35vw;
   background-color: var(--main-color);
-  outline: 4px solid var(--secondary-color);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .information div {
+  font-family: "Fauna One", serif;
+  color: var(--text-color);
+  width: 560px;
+}
+
+.about-me {
   width: 100px;
-  height: 100px;
-  outline: 1px solid whitesmoke;
+  height: 50px;
+  margin-bottom: 45px;
+  font-size: 5rem;
+}
+
+.status {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 750;
+  font-size: 26px;
+  color: white !important;
+  margin-bottom: 32px;
+}
+
+.about-me-text {
+  font-size: 24px;
+  word-wrap: break-word;
+}
+
+.highlight-white {
+  color: white;
+}
+
+.discord-tag {
+  /* color: #FFFF55; */
+  color: #aa00aa;
+  font-style: italic;
 }
 
 @keyframes fadeInBackground {
